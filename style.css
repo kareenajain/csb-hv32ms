@@ -1,0 +1,98 @@
+/* Blue component */
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.container-solid {
+  border: 1px solid blue;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sphere {
+  width: 10rem;
+  height: 10rem;
+  background-color: green;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* white component */
+.container-white {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title h5 {
+  margin: 0 10px;
+}
+
+.state {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  margin: 10px 2px;
+  border-radius: 6px;
+  padding: 0.75rem;
+  align-items: center;
+}
+/* v- Light red: 
+- Orangey yellow: 
+- Green teal: 
+- Cobalt blue:  */
+.reaction {
+  background-color: hsl(0, 100%, 98%);
+}
+.reaction h5 {
+  color: hsl(0, 60%, 60%);
+}
+.memory {
+  background-color: hsl(39, 100%, 98%);
+}
+.memory h5 {
+  color: hsl(39, 60%, 60%);
+}
+.verbal {
+  background-color: hsl(166, 100%, 98%);
+}
+.verbal h5 {
+  color: hsl(166, 60%, 60%);
+}
+.visual {
+  background-color: hsl(234, 85%, 98%);
+}
+,
+.visual h5 {
+  color: hsl(234, 60%, 60%);
+}
+.button {
+  margin: 2.5rem 0rem;
+  border-radius: 2.5rem;
+  justify-content: center;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+/* main-component */
+.component {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+}
